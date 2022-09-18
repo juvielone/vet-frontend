@@ -7,7 +7,7 @@ import './index.css';
 import { disableReactDevTools } from '@fvilers/disable-react-devtools';
 
 // Disable react in production mode
-disableReactDevTools()
+if (process.env.NODE_ENV === 'production') disableReactDevTools()
 
 const container = document.getElementById('root');
 const root = createRoot(container);
