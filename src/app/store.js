@@ -9,4 +9,5 @@ export const store = configureStore({
     appointment: apmReducer,
     admin: adminReducer
   },
+  devTools: false,
 });
