@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = '/api/appointment/'
+const API_URL = 'https://vet-app.onrender.com/api/appointment/'
 
 // Create Appointment
 const createApm = async (apmData, token) => {
