@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // admin/owners
-const API_URL = 'https://vetapp-api.onrender.com/admin/'
+const API_URL = '/admin/'
 
 const getUsers = async () => {
 
