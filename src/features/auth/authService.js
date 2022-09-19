@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = '/api/'
+const API_URL = "https://vetapp-api.onrender.com/api/"
 
 // Register User
 const register = async (userData) => {
